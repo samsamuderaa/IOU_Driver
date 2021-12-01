@@ -5,9 +5,9 @@ class IouAppBar extends AppBar {
       : super(
             elevation: 0.25,
             backgroundColor: Colors.white,
-            flexibleSpace: _buildGojekAppBar());
+            flexibleSpace: _buildIouAppBar());
 
-  static Widget _buildGojekAppBar() {
+  static Widget _buildIouAppBar() {
     return new Container(
       padding: EdgeInsets.only(left: 16.0, right: 16.0),
       child: new Row(
